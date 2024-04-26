@@ -23,8 +23,11 @@ body{
     background-color: var(--red);
     border: none;
     color: var(--white);
+    cursor: pointer;
 }
 .title{
+    text-align: center;
+
     font-size: 45px;
 }
 hr{
@@ -98,6 +101,7 @@ hr{
 }
 
 .hero-title{
+    text-align: start;
     font-size: 35px;
     color: var(--white);
 }
@@ -123,10 +127,6 @@ hr{
     border: 10px solid var(--red);
 }
 
-.about-school-title{
-    text-align: center;
-
-}
 
 .about-school-title-block{
     width: 400px;
@@ -151,9 +151,7 @@ hr{
     margin-top: 100px;
 }
 
-.course-title{
-    text-align: center;
-}
+
 
 .container{
     display: flex;
@@ -252,4 +250,81 @@ hr{
     background-color: var(--red);
     border: none;
     color: var(--white);
+}
+.exam-item{
+    text-align: center;
+}
+
+.item-name{
+    font-size: 24px;
+}
+
+#exam{
+    margin: 50px 0;
+}
+
+
+
+.exam-container{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.item-list{
+    height: 230px;
+}
+
+.item-list-item{
+    max-width: 80%;
+    margin: 20px auto;
+    text-align: start;
+}
+
+.item-list-item::marker{
+    font-size: 10px;
+}
+
+#event{
+    margin: 50px 0;
+}
+
+.event-container{
+    margin-top: 50px;
+}
+
+.item-content{
+    padding: 20px;
+}
+
+.item-name{
+    padding: 20px;
+}
+.item-btn{
+    margin: 20px;
+}
+
+.news-container{
+    margin-top: 50px;
+}
+
+.news-item{
+    width: 25%;
+}
+.news-item > .item-description{
+    width: 80%;
+    padding: 20px 0;
+    height: 250px;
+}
+.news-item > .item-name{
+    width: 80%;
+    padding: 0px;
+}
+
+
+footer{
+    margin: 100px 0 50px 0;
+}
+
+@media  {
+    
 }
